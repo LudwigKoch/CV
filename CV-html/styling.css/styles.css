@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+    padding: 10%;
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+
+   font-family: Arial, Helvetica, sans-serif; 
+   line-height: 1.5;
+   background: #f2f2f2;
+   color: #323232;
+   padding: 10%;
+}
+
+image {
+    max-width: 100%;
+}
+
+.icon {
+    fill: currentColor;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+
+}
+
+a {
+    color: #323232;
+    text-decoration: none;
+
+}
+
+a :hover {
+    text-decoration: underline
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 24px 0px;
+    border-bottom: 1px blue;
+    
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*  alt styling ovenover er til kroppen - altså alt kødet, det nedenunder er til min header/Overrubrik */
+
+.avatar {
+    width: 130px;
+}
+
+.min-titel {
+font-size: 24px;
+}
+
+.my-name {
+    font-size: 24px;
+    font-weight: 300;  
+    color: chocolate;
+}
+
+.link {
+    display: flex;
+    margin: 10px 0px 20px 0;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.link-item svg {
+    margin-right: 6px;
+}
+
+.job {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgray;
+}
+
+.job :last-child {
+    border-bottom: none;
+}
+
+.job-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.job-company {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Sektionen med skills kommer nu her */
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20;
+    margin-bottom: 24px;
+}
+
+.skills-container ul {
+    margin-left: 2opx;
+    list-style: disc;
+}
+
+/* her kommer sektionen med mine interesser */
+
+.interests-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interests-container img {
+    height: 35px;
+    opacity: 0.75;
+}
+
+/*  her kommer sektionen med mine referencer */
+
+
+
+
+
